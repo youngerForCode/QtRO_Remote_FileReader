@@ -1,0 +1,7 @@
+#include <QImage>
+
+class FileReader
+{
+	PROP(QByteArray content READONLY )
+	SLOT(QImage read(QString path))
+}
